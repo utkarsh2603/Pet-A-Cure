@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1eaa5d4c22.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+        body {
+            background: #f3f5f9;
+            position: relative;
+        }
+
+        p {
+            line-height: 1.7;
+            font-size: 18px;
+            text-align: left;
+            margin-left: 20px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        h3 {
+            text-align: left;
+        }
+
+        .wrapper {
+            display: flex;
+            position: relative;
+        }
+
+        .wrapper .sidebar {
+            position: fixed;
+            width: 200px;
+            height: 100%;
+            background:#feac6d;
+            padding: 30px 0;
+        }
+        .wrapper .sidebar h2 {
+            color:#fff;
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .wrapper .sidebar ul li {
+            padding: 15px;
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+            border-top: 1px solid rgba(225,225,225,0.5);
+            cursor: pointer;
+            list-style: none;
+            
+        }
+
+        .heading.active {
+            background: #9b4502;
+        }
+
+        .wrapper .sidebar ul li.active a {
+            color:#fff;
+        }
+        
+        .wrapper .sidebar ul li a {
+            color:#9b4502;
+            display: block;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .wrapper .sidebar ul li:hover {
+            background: #9b4502;
+        }
+
+        .wrapper .sidebar ul li:hover a {
+            color:#fff;
+        }
+
+        .wrapper .sidebar .social-media {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            margin-bottom: 12px;
+            display: flex;
+        }
+
+        .wrapper .sidebar .social-media a {
+            display: block;
+            width: 35px;
+            background:#9b4502;
+            height: 30px;
+            line-height: 35px;
+            margin: 0 5px;
+            color:rgb(199, 194, 194);
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+            text-align: center;
+        }
+
+      
+        .main-content {
+            text-align: center;
+            width: 80%;
+            padding:25px;
+            margin: 0 40px 0 200px;
+        }
+
+        
+
+        .main-content .info {
+            display: none;
+    
+        }
+
+        .main-content .heading-1 ul li {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .info.active {
+            display: block;
+        }
+   
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <h2>ANIMALS</h2>
+            <ul>
+                <li class="heading heading-1 active"><a href="#">Dogs</a></li>
+                <li class="heading heading-2"><a href="#">Cats</a></li>
+                <li class="heading heading-3"><a href="#">Cows</a></li>
+                <li class="heading heading-4"><a href="#">Horses</a></li>
+                <li class="heading heading-5"><a href="#">Fish</a></li>
+           
+            </ul>
+            <div class="social-media">
+                <a href="https://t.me/+4Ql9SUcpAmQ2MmQ1"><i class="fa-brands fa-telegram fa-xl"></i></a>
+                <a href="#"><i class="fa-brands fa-square-snapchat fa-xl "></i></a>
+                <a href="https://instagram.com/animal__healthcare?igshid=ZGUzMzM3NWJiOQ=="><i class="fa-brands fa-square-instagram fa-xl"></i></a>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="info heading-1 active">
+                <h1>Dogs Grooming Tips</h1><br>
+                <img src="https://assets.elanco.com/8e0bf1c2-1ae4-001f-9257-f2be3c683fb1/cadab6ed-c380-4151-ac27-26355e96d2eb/istock-1220737701_unrestricted_1110x800.jpg" alt="">
+                <p>Regular grooming is important for dogs of all breeds – it helps them maintain a shiny, tangle-free coat and gives you the chance to check for parasite infestations and skin issues, improving their overall hygiene. Plus, grooming can be a one-on-one bonding experience for you and your pet.
+
+                    <br>Even dogs with short, low-maintenance coats need regular brushing, bathing and nail trimming. Dogs with longer coats may also need clipping and hair trimming. While you may wish to schedule regular appointments with a professional groomer – especially when it comes to clipping and trimming your dog’s hair – these seven tips will help you establish an at-home grooming routine with your dog</p>
+                    
+                    <br><h3>1. Regularly brush your dog’s coat to prevent matting</h3>
+                    <br><p>Regardless of breed, your dog will need regular brushing to keep its coat shiny and glossy. The amount of brushing per week depends on your dog’s coat length and texture. Longhaired breeds like golden retrievers and collies will need more frequent brushing (at least once a week, if not every other day), while shorthaired breeds like greyhounds or labradors may need a good brushing only every other week.
+
+                        For longhaired dogs, badly matted hair can cause pain. Dogs will lick or bite themselves at the source of irritation, which may result in skin infections. Foreign bodies like grass seeds can hide inside a matted coat, and can even burrow into the skin to cause an abscess. Regularly brushing your longhaired dog prevents matting from becoming a problem.
+                        
+                        Shorthaired dogs benefit from brushing, too. Brushing removes loose hair, dirt and dander from your dog’s coat, extending the time between baths.</p>
+                
+                    <br><h3>2. Trim your dog’s hair – but use caution</h3>
+                    <br><p>Most dog owners prefer to take their dog to a groomer to have their dog’s hair cut. That said, if you proceed carefully you can trim overgrown hair around your dog’s eyes or paws in between professional groomings. Trimming the hair around your dog’s eyes can prevent overgrown hair from blocking its vision and rubbing against and damaging its eyes.
+
+                        <br><br>Always wait until your dog is calm and preferably lying down. Move slowly and calmly, and use extra caution when scissor blades are near the skin. Make sure to reward your dog’s calmness with a treat after you’re finished.
+                        
+                        <br><br>Trimming the hair inside the ears can improve air movement and help prevent ear infections. However, this is best done by an experienced groomer or at your vet clinic.
+                        
+                        <br><br><b>Remember: It’s easy to accidentally cut your pet with scissors or clippers. Always take care when trimming, and if you’re nervous or would prefer not to trim your dog’s hair yourself, turn to a professional grooming service.</b></p>
+                        
+                    <br><h3>3. Safely trim your dog’s nails</h3>
+                    <br><p>Trim your dog’s nails when you hear them clicking on the hard floors in your home. This will prevent your dog from experiencing discomfort from overly long nails. However, before you trim your dog’s nails for the first time, you’ll need a <a href="https://mypetandi.elanco.com/au/health/guide-cutting-your-dog-s-nails">few safety tips.</a></p>
+                      
+                    <br><h3>4. Check your dog’s skin as you groom </h3>
+                    <br><p>Allergic skin diseases are common in dogs, causing itchiness and making them scratch, chew or lick their skin. In addition to making your pet miserable, external parasites like fleas, ticks, lice and mites can transfer diseases or other parasites like the tapeworm.
+
+                    <br><br>Make a habit of checking your dog’s skin every time you groom them. Start by running your fingers through your dog’s coat, feeling its skin for unusual lumps or bumps. You can investigate further by parting the coat to examine the skin more closely for sores, redness, rashes, bald spots and evidence of parasitic infestations.</p>
+                    
+                    <br><h3>5. Regularly check your dog’s ears </h3>
+                    <br><p>While grooming your dog, remember to take a closer look at its ears. Ear infections can be painful, so if you notice any of the following changes or behaviours, take your dog to your vet for a check-up:</p>
+                    <br><ul style="text-align: left;margin-left: 18px;font-size: 17px;">
+                        <li>The inside of the ears is inflamed or moist.</li>
+                        <li>The ears smell odd (often, the smell of a dog ear infection is sweet)..</li>
+                        <li>Your dog shakes its head or scratches at its ears.</li>
+                        <li>The ears contain more or a different kind of discharge than usual (a little wax is normal).</li>
+                        <li>Whines or yelps when you examine the dog’s ears.</li>
+                    </ul>
+                
+                </div>
+            <div class="info heading-2">
+                <h1>Cats Grooming Tips</h1><br>
+                <p>A clean cat is a happy cat, and we're here to help! From nail trims to bathing, a little maintenance goes a long way. 
+                    Read on to find out how to keep your kitty’s eyes, ears, teeth, skin and fur healthy and clean. 
+                    <br>Please note: There are some cats who do not tolerate being groomed. If your cat fights the grooming process, 
+                    and there is some potential that injury could occur to your cat or yourself, 
+                    please make an appointment with a professional groomer or a veterinarian to have your cat groomed.</p>
+                    
+                    <br><h3>1. Bathing Your Cat</h3>
+                    <br><p>With her built-in grooming tools (tongue and teeth), your fastidious feline is well-equipped to tackle her own hair care needs. 
+                        But if she is very dirty or gets into something sticky or smelly, you may need to give her a bath. 
+                      </p>
+                
+                    <br><h3>2. Brushing Your Cat</h3>
+                    <img src="https://www.aspca.org/sites/default/files/cat-care_cat-grooming_body1-right.jpg" alt="">
+                    <br><p>Brushing your cat not only removes dirt, grease and dead hair from her coat, 
+                        but it helps to remove skin flakes and stimulates blood circulation, improving the overall condition of her skin. 
+                        One or two brushings per week will help kitty to keep her healthy glow—and you’ll find that regular sessions are especially beneficial when
+                         your cat ages and is no longer able to groom so meticulously on her own.</p>
+                        
+                    <br><h3>3. Skin Problems</h3>
+                    <br><p>The condition of your cat’s skin is an indication of her overall health. When a skin problem occurs,
+                         your cat may respond with excessive scratching, chewing and/or licking. A wide range of causes—from external parasites and allergies to seasonal changes and stress,
+                          or a combination of these—may be affecting your cat’s skin and should be investigated. 
+                        Skin problems are one of the most common reasons pet parents seek veterinary care.</p>
+                    
+                    <br><h3>4. Shedding</h3>
+                    <br><p>Shedding is a cat’s natural process of losing dead hair. Indoor cats can shed all year-round. 
+                        Regularly grooming your cat and vacuuming hair from your house should minimize the inconvenience of shedding. 
+                        However, if you see bald patches in your cat’s fur or notice a significant loss of hair, 
+                        the underlying cause may be a health-related problem and should be investigated by a veterinarian.</p>
+
+                    <br><h3>5. Ear Care</h3>
+                    <img src="https://www.aspca.org/sites/default/files/cat-care_cat-grooming_ear-care_body2-right.jpg" alt="">
+                    <br><p>Your cat’s ears may be able to pick up the sound of a bag of treats being opened across the house, but they could still use a little help staying clean. Monitoring your kitty’s ears once per week for wax, 
+                        debris and infection will help those sensitive sonar detectors stay perky and alert to your every move.</p>
+
+                    <br><h3>6. Paw and Nail Care</h3>
+
+                    <br><h4>6.1 Healthy Paws</h4>
+                    <img src="https://www.aspca.org/sites/default/files/cat-care_cat-grooming_paw-nail-care_body3-left.jpg" alt="">
+                    <br><p>Cats need healthy feet to scratch, climb and achieve their famed acrobatic landings. 
+                        That’s why it’s important to regularly examine and clean your cat’s paws and make sure they’re wound-free.</p>
+
+                    <br><h4>6.1 Nail Care</h4>
+                    <img src="https://www.aspca.org/sites/default/files/cat-care_cat-grooming_paw-nail-care_body3-right.jpg" alt="">
+                    <br><p>Does your kitty disappear when the clippers come out? Do you have to wrap her in a towel to give her a manicure?
+                        <br>Choose a chair in a quiet room where you can comfortably sit your cat on your lap.
+                        <br>Gently take one of your cat’s paws between your fingers and massage for no longer than three seconds.
+                        <br>Your cat should be at ease with the sound of the clippers before you attempt to trim her nails.
+                    </p>
+
+            </div>
+            <div class="info heading-3">
+                <h1>Cows Grooming Tips</h1><br>
+                <img src="data:image/jpeg;base64,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" width="80%" alt="">
+                <p>Grooming has considerable biological importance to cows.  The most obvious importance is in reduction of the number of parasites and organisms on the cow’s coat.  
+                    However, there is more to grooming than just the obvious.  
+                    Grooming is actually a social activity for cows. 
+                     It allows cows to bond with their herdmates and reduces the impact of the boss cow/submissive cow hierarchy within the herd.  
+                     Cows also use grooming as a way to cope with stressful situations.  A study conducted at Purdue demonstrated increased grooming behavior after periods of restraint.  Another study conducted at Iowa State showed that cows that were denied grooming behavior showed more abnormal behavior.  Typically, cows use grooming behavior to help deal with stress, but, in confinement systems, grooming objects are not always as available or easily accessed as they would be in pasture systems.  
+                    Therefore, many producers and dairy equipment companies are looking for ways to improve cow environments through environmental enrichment.</p>
+                    
+                    <br><h3>1. Cleaning</h3>
+                    <br><p>Wash the cow thoroughly. This will both clear waste and dirt from the animals coat and stimulate hair growth. Wet the cow's hair thoroughly by dumping water over it or spraying it with a water hose. Lather it with a horse hair or cattle shampoo. Pay special attention to the legs, belly and white areas of the coat. Scrub the cow with a rubber curry comb. You will need to scrub deeply so that skin flakes are pulled away, 
+                        or the cow's coat may be flaky like it has dandruff when you are done. Rinse the soap, grime and loose hair from the animal completely.<br>
+                        Blow dry the cow completely. Dry the animal from the front to the back, and from the top to the bottom. Keep the blow dryer level and at a 45-degree angle so that all the hair is blown down flat and in the same direction.
+                        Make sure that you dry the head, legs and tail – not just the cow's main body.
+                    <br>Comb the cow’s hair. The hair should be combed upward at about a 30-degree angle. 
+                    This will promote hair growth. Use a rice root brush to comb the cow down at least once a day during show season.
+                    <br>Scotch comb the cow during the actual show. The scotch comb is used to comb hair that is messed up while 
+                    in the arena either by the judges' handling or when a person or another animal bumps into the cow in the ring.</p>
+                
+                    <br><h3>2. Clipping</h3>
+                    
+                    <br><p>Clip the animal so that you enhance its strongest physical features and minimize its weak points. 
+                        Clip the animal seven to 10 days before the fair so the ends of the hair will soften some and look more natural on the day of the fair.
+                    <br><b>Clip the head</b> from the poll forward with a small set of clippers, sometimes called beef head clippers. The poll is the large knot on top of the head. 
+                    Then clip from the face of the cow down toward the brisket. When well-blended, this will make the neck look elongated.
+                    <br><b>Clip the cow's body</b> using a large set of clippers, like sheep sheers. Use both hands while trimming the body: use the hand you write with to control the clippers and place the other hand under the clippers to keep them steady.
+                    <br>Clip the cow so that its top line looks flat and its shoulders and hindquarters look square. 
+                    The hips should look fully level. Trim the legs so they also look flat and square or rectangular.</p>
+                        
+                    <br><h3>3. Fitting</h3>
+                    <br><p>Pull up the hair on the legs using the scotch comb. The hair should be pulled so that it goes up and forward along the leg. Use a spray adhesive to hold the combed hair in place. This is like a strong hairspray and should be applied carefully so that it does not glob or run. You want the final look of the hair to be as natural as possible.
+
+                        <br>Pull the hair on the hand quarters and tail head with a scotch comb and spray it with an adhesive in the same way that you did the legs.
+                        
+                        <br>Scotch comb the hair on the body upward and forward then spray the hair with an oil based conditioner to give it a sheen.
+                        
+                        <br>Pull the hair on the hind quarters and tail head with a scotch comb and spray it with an adhesive in the same way that you did the legs.
+                        
+                        <br>Scotch comb the hair on the body upward and forward; then spray the hair with an oil-based conditioner to give it a sheen.</p>
+                    
+                </div>
+            <div class="info heading-4">
+                <h1>Horses Grooming Tips</h1><br>
+                <p>Grooming provides benefits beyond cleaning your horse, including increasing blood flow to muscles and skin, and building a bond with your horse.
+                    Grooming gloves, jelly scrubbers, and rub rags are useful additions to a grooming kit.
+                    Cleaning and maintenance of grooming tools makes them more effective.</p>
+                    
+                    <br><h3>1. Regular Care</h3>
+                    <br><p>Invest in quality horse grooming brushes and keep them clean. You can’t do a thorough job grooming your horse with dirty or dusty brushes. Plus, keeping them clean will help them last longer.
+                        <br>To avoid fungal infections, don’t use your brushes on other horses.
+                        <br>Curry your horse every day. The more you curry, the more you bring the oils in the skin to the surface. When it comes to currying, there is no substitute for good old-fashioned elbow grease.
+                        <br>Select curries according to the season. Winter curries are actually shedding blades that aid in removing hair as your horse sheds. Summer curries are round rubber brushes that come in a variety of sizes and styles. Choose a small, soft curry brush for the face and a larger one for the body.
+                        <br>Brush the hair in the direction the hair grows.
+                        <br>Don’t neglect your horse’s hooves. They should be picked out daily, not just when you are getting ready to ride.
+                        <br>Treat your horse’s feet to a lanolin-based hoof conditioner at least once a week to keep his hooves conditioned.
+                        <br>Know where your horse’s ticklish spots are and be extra gentle around those areas.
+                        <br>When brushing the mane and tail, start at the ends and work your way up. If you want your horse’s mane and tail to grow out, don’t comb it every day. Instead, just pick out any tangles, shavings or twigs.
+                        <br>Grooming mitts are great for wiping dust off your horse and for applying fly spray.</p>
+                
+                    <br><h3>2. Bathing</h3>
+                    <br><p>When bathing your horse, use soft sponges, as they hold more water.
+
+                        <br><br>When hosing your horse, direct the stream of water from the front to the back so that you don’t accidentally squirt him in the face.
+                        
+                        <br><br>Place a cooler on a just-bathed horse to reduce the chill.
+                        Don’t forget to wash underneath his tail and between his back legs.
+                        If it’s too cold to bathe your horse, sponge off his neck, face, saddle and girth area with warm water to remove any sweat.
+                        Clean your gelding’s sheath or your mare’s udder when needed.
+                        
+                       </p>
+                        
+                    <br><h3>3. Safely trim nails</h3>
+                    <br><p>Trim nails when you hear them clicking on the hard floors in your home. This will prevent your dog from experiencing discomfort from overly long nails. However, before you trim your dog’s nails for the first time, you’ll need a <a href="https://mypetandi.elanco.com/au/health/guide-cutting-your-dog-s-nails">few safety tips.</a></p>
+                      
+                    <br><h3>4. Check skin as you groom </h3>
+                    <br><p>Allergic skin diseases are common in horses, causing itchiness and making them scratch, chew or lick their skin. In addition to making your pet miserable, external parasites like fleas, ticks, lice and mites can transfer diseases or other parasites like the tapeworm.
+
+                    <br><br>Make a habit of checking your horse’s skin every time you groom them. Start by running your fingers through your horse's coat, feeling its skin for unusual lumps or bumps. You can investigate further by parting the coat to examine the skin more closely for sores, redness, rashes, bald spots and evidence of parasitic infestations.</p>
+                    
+                    <br><h3>5. Regularly check your horse's ears </h3>
+                    <br><p>While grooming your horse, remember to take a closer look at its ears. Ear infections can be painful, so if you notice any of the following changes or behaviours, take your dog to your vet for a check-up:</p>
+            </div>
+            <div class="info heading-5">
+                <h1>Fish Grooming Tips</h1><br>
+                <p>In the aquatics hobby, the art of 'grooming' is simply that of raising a fish to it's full potential.</p>
+                    
+                    <br><h3>1. Water Volume</h3>
+                    <br><p>In order for fish to grow, they must have the proper tank size. In my opinion, goldfish, especially that of the fancy variety, need at least 20 gallons per fish. Now, you can push this in larger aquariums, for example, having four fish in a sixty gallon, instead of only three. I would not recommend pushy these limits for anything smaller than a 40 gallon breeder.
+                      </p>
+                
+                    <br><h3>2.Water Quality</h3>
+                    <!-- <img src="https://www.aspca.org/sites/default/files/cat-care_cat-grooming_body1-right.jpg" alt=""> -->
+                    <br><p>Now that we have taken tank size into consideration, let's also take water quality. Goldfish need good, clean water, and so does every other fish. You will find that Fancy Goldfish may be harder to keep than that of the single tailed variety. The reasoning behind this is that fancy goldfish are more sensitive to ammonia, nitrate, and nitrite. I recommend 80% - 100% water changes WEEKLY. This, of course, after cycling as occurred.</p>
+                        
+                    
+                    
+                    <br><h3>3. Feeding</h3>
+                    <br><p> food is probably the most obvious. The food that you make available to the fish is one of my pet peeves. PLEASE do not feed any sort of flakes. They offer little to no nutritional value, and once added to water, simply make a mess. Not to mention, they can also make fancies floaty and constipated. I highly recommend gel food, such as Repashy Super Gold or Solient Green. You can also find numerous homemade gel recipes online.
+
+                        ​
+                        
+                        One thing about goldfish is that they love variety and if you want them to grow, do just that! You can add a good quality pellet such as Jappies Fish Food or New Like Spectrum into the mix. Also give them an assortment of fresh veggies like lettuce, spinach, or broccoli for treats. You should be feeding two to four times per day, only as much as the fish can eat in two - three minutes.
+                        
+                        ​
+                        
+                        Remember! Uneaten food will pollute the water and cause ammonia spikes, which can become fatal if not take care of.</p>
+
+                    <br><h3>4. Filtration</h3>
+                    <!-- <img src="https://www.aspca.org/sites/default/files/cat-care_cat-grooming_ear-care_body2-right.jpg" alt=""> -->
+                    <br><p>Filters remove the uneaten food and waste products from the water, so you can have a nice, clean tank. Filters also grow beneficial bacteria that eat ammonia and break it down to nitrite and eventually, into nitrate, which is much less harmful to fish. Think of the bacteria as neutralizers. Not only do these bacteria's live in the filter, but they also live in the substrate and surfaces within the aquarium. They do NOT live in the water, so doing water changes will not remove them.</p>
+
+                    </p>
+                </div>
+            <div class="info heading-6">
+                <h1>Birds Grooming Tips</h1><br>
+                <p>Bird owners deserve to pamper their pets, too! Our feathered friends do require some extra care to stay healthy, and Paws, Purrs, & Exotics Animal Hospital has all the best tips for bird grooming. </p>
+                    
+                    <br><h3>1. Feather Care</h3>
+                    <br><p>With her built-in grooming tools (tongue and teeth), your fastidious feline is well-equipped to tackle her own hair care needs. 
+                        But if she is very dirty or gets into something sticky or smelly, you may need to give her a bath. 
+                      </p>
+                
+                    <br><h3>2. Brushing Your Cat</h3>
+                    <img src="https://www.aspca.org/sites/default/files/cat-care_cat-grooming_body1-right.jpg" alt="">
+                    <br><p>Brushing your cat not only removes dirt, grease and dead hair from her coat, 
+                        but it helps to remove skin flakes and stimulates blood circulation, improving the overall condition of her skin. 
+                        One or two brushings per week will help kitty to keep her healthy glow—and you’ll find that regular sessions are especially beneficial when
+                         your cat ages and is no longer able to groom so meticulously on her own.</p>
+                        
+                    <br><h3>3. Skin Problems</h3>
+                    <br><p>The condition of your cat’s skin is an indication of her overall health. When a skin problem occurs,
+                         your cat may respond with excessive scratching, chewing and/or licking. A wide range of causes—from external parasites and allergies to seasonal changes and stress,
+                          or a combination of these—may be affecting your cat’s skin and should be investigated. 
+                        Skin problems are one of the most common reasons pet parents seek veterinary care.</p>
+                    
+                    <br><h3>4. Shedding</h3>
+                    <br><p>Shedding is a cat’s natural process of losing dead hair. Indoor cats can shed all year-round. 
+                        Regularly grooming your cat and vacuuming hair from your house should minimize the inconvenience of shedding. 
+                        However, if you see bald patches in your cat’s fur or notice a significant loss of hair, 
+                        the underlying cause may be a health-related problem and should be investigated by a veterinarian.</p>
+
+                    <br><h3>5. Ear Care</h3>
+                    <img src="https://www.aspca.org/sites/default/files/cat-care_cat-grooming_ear-care_body2-right.jpg" alt="">
+                    <br><p>Your cat’s ears may be able to pick up the sound of a bag of treats being opened across the house, but they could still use a little help staying clean. Monitoring your kitty’s ears once per week for wax, 
+                        debris and infection will help those sensitive sonar detectors stay perky and alert to your every move.</p>
+
+                    <br><h3>6. Paw and Nail Care</h3>
+
+                    <br><h4>6.1 Healthy Paws</h4>
+                    <img src="https://www.aspca.org/sites/default/files/cat-care_cat-grooming_paw-nail-care_body3-left.jpg" alt="">
+                    <br><p>Cats need healthy feet to scratch, climb and achieve their famed acrobatic landings. 
+                        That’s why it’s important to regularly examine and clean your cat’s paws and make sure they’re wound-free.</p>
+
+                    <br><h4>6.1 Nail Care</h4>
+                    <img src="https://www.aspca.org/sites/default/files/cat-care_cat-grooming_paw-nail-care_body3-right.jpg" alt="">
+                    <br><p>Does your kitty disappear when the clippers come out? Do you have to wrap her in a towel to give her a manicure?
+                        <br>Choose a chair in a quiet room where you can comfortably sit your cat on your lap.
+                        <br>Gently take one of your cat’s paws between your fingers and massage for no longer than three seconds.
+                        <br>Your cat should be at ease with the sound of the clippers before you attempt to trim her nails.
+                    </p></div>
+            
+            
+            
+        </div>
+    </div>
+
+    <script>
+        let H2 = document.querySelectorAll(".sidebar li.heading");
+        let AllSet = document.querySelectorAll(".main-content > div.info,.sidebar li.heading ");
+        for (let e of H2) {
+        e.addEventListener("click", function() {
+            let linkedClass = this.classList.item(1);
+            toggleActive(linkedClass);
+        });
+        }
+        function toggleActive(linkedClass) {
+        for (let i = 0; i < AllSet.length; i++) {
+            AllSet[i].classList.remove("active");
+            if (AllSet[i].classList.item(1) == linkedClass) {
+            AllSet[i].classList.add("active");
+            }
+        }
+        }
+    </script>
+
+</body>
+</html>

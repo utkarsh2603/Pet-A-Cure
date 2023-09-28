@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1eaa5d4c22.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+        body {
+            background: #f3f5f9;
+            position: relative;
+        }
+
+        p {
+            line-height: 1.7;
+            font-size: 18px;
+            text-align: left;
+            margin-left: 20px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        h3 {
+            text-align: left;
+        }
+
+        .wrapper {
+            display: flex;
+            position: relative;
+        }
+
+        .wrapper .sidebar {
+            position: fixed;
+            width: 200px;
+            height: 100%;
+            background:#feac6d;
+            padding: 30px 0;
+        }
+        .wrapper .sidebar h2 {
+            color:#fff;
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .wrapper .sidebar ul li {
+            padding: 15px;
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+            border-top: 1px solid rgba(225,225,225,0.5);
+            cursor: pointer;
+            list-style: none;
+            
+        }
+
+        .heading.active {
+            background: #9b4502;
+        }
+
+        .wrapper .sidebar ul li.active a {
+            color:#fff;
+        }
+        
+        .wrapper .sidebar ul li a {
+            color:#9b4502;
+            display: block;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .wrapper .sidebar ul li:hover {
+            background: #9b4502;
+        }
+
+        .wrapper .sidebar ul li:hover a {
+            color:#fff;
+        }
+
+        .wrapper .sidebar .social-media {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            margin-bottom: 12px;
+            display: flex;
+        }
+
+        .wrapper .sidebar .social-media a {
+            display: block;
+            width: 35px;
+            background:#9b4502;
+            height: 30px;
+            line-height: 35px;
+            margin: 0 5px;
+            color:rgb(199, 194, 194);
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+            text-align: center;
+        }
+
+      
+        .main-content {
+            text-align: center;
+            width: 80%;
+            padding:25px;
+            margin: 0 40px 0 200px;
+        }
+
+        
+
+        .main-content .info {
+            display: none;
+    
+        }
+
+        .main-content .info ul li {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: left;
+            margin-left: 20px;
+            line-height: 1.5;
+        }
+
+        .info.active {
+            display: block;
+        }
+
+        iframe {
+            display: inline-block;
+            border-radius: 10px;
+        }
+   
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <h2>ANIMALS</h2>
+            <ul>
+                <li class="heading heading-1 active"><a href="#">Dogs</a></li>
+                <li class="heading heading-2"><a href="#">Cats</a></li>
+                <li class="heading heading-3"><a href="#">Cows</a></li>
+                <li class="heading heading-4"><a href="#">Horses</a></li>
+             
+            </ul>
+            <div class="social-media">
+                <a href="https://t.me/+4Ql9SUcpAmQ2MmQ1"><i class="fa-brands fa-telegram fa-xl"></i></a>
+                
+                <a href="https://instagram.com/animal__healthcare?igshid=ZGUzMzM3NWJiOQ=="><i class="fa-brands fa-square-instagram fa-xl"></i></a>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="info heading-1 active">
+                <h1>Dogs Care videos</h1><br>
+                <p>A dog can be a wonderful addition to any home, but whether you're an experienced pet parent or a first-time adopter, 
+                    it's important to keep your canine companion's health and happiness a top priority. Below are some useful tips for all dog parents.</p>
+                    <br>
+                <ul>
+                    <li>Puppies eight to 12 weeks old need four meals a day.</li>
+                    <li>Feed puppies three to six months old three meals a day.</li>
+                    <li>Feed puppies six months to one year two meals a day.</li>
+                    <li>When your dog reaches his first birthday, one meal a day is usually enough.</li>
+                    <li>For some dogs, including larger canines or those prone to bloat, it's better to feed two smaller meals.</li>
+                </ul>
+                <br>
+                <p>Dogs need exercise to burn calories, stimulate their minds, and stay healthy. Individual exercise needs vary based on breed or breed mix, sex, age and level of health. Exercise also tends to help dogs avoid boredom, which can lead to destructive behaviors. Supervised fun and games will satisfy many of your pet's instinctual urges to dig, herd, chew, retrieve and chase.</p>
+                <br>
+                <p>To carry a puppy or small dog, place one hand under the dog's chest, with either your forearm or other hand supporting the hind legs and rump. Never attempt to lift or grab your puppy or small dog by the forelegs, tail or back of the neck. If you do have to lift a large dog, lift from the underside, supporting his chest with one arm and his rear end with the other.</p>
+                <br>
+                <iframe width="480" height="270" src="https://www.youtube.com/embed/qOoCIlYxLb4" title="YouTube video player" align="left" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    
+                <iframe width="480" height="270" src="https://www.youtube.com/embed/Tn3lZE0rRBs" title="YouTube video player" align="right" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                
+                <iframe width="480" height="270" src="https://www.youtube.com/embed/5C39A9UU720" style="margin-top:10px" align="left" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="480" height="270" src="https://www.youtube.com/embed/t7FPjodGI74" style="margin-top:10px" title="YouTube video player" align="right" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="info heading-2">
+                 <h1>Cats Care videos</h1>
+                 <ul>
+                    <li>Cats require taurine, an essential amino acid, for heart and eye health. The food you choose should be balanced for the life stage of your cat or kitten. Properly balanced foods will contain taurine..</li>
+                    <li>You will need to provide fresh, clean water at all times, and wash and refill your cat’s water bowls daily</li>
+                    <li>Treats should be no more than 5-10% of the diet</li>
+                    <li>Many people feed baby food to a cat or kitten who is refusing food or not feeling well  Please read labels carefully: If the baby food contains onion or garlic powder, your pet could be poisoned.</li>
+                    <li>Take your pet to your veterinarian if signs of anorexia, diarrhea, vomiting or lethargy continue for more than two days.</li>
+                </ul>
+                <br>
+                <h3>Handling</h3>
+                <p>To pick up your cat, place one hand behind the front legs and another under the hindquarters. Lift gently. Never pick up a cat by the scruff of the neck or by the front legs.</p>
+                <br>
+                <h3>Housing</h3>
+                <p>Your pet should have her own clean, dry place in your home to sleep and rest. Line your cat's bed with a soft, warm blanket or towel. Be sure to wash the bedding often. Please keep your cat indoors. Outdoor cats do not live as long as indoor cats. Outdoor cats are at risk of trauma from cars, or from fights with other cats, raccoons and free-roaming dogs. Coyotes are known to eat cats. Outdoor cats are more likely to become infested with fleas or ticks, as well as contract infectious diseases.</p>
+                <br>
+                <h3>Identification</h3>
+                <p>If allowed outdoors, your cat must wear a safety collar and an ID tag. A safety collar with an elastic panel will allow your cat to break loose if the collar gets caught on something. And for both indoor and outdoor cats, an ID tag or an implanted microchip can help ensure that your cat is returned if he or she becomes lost.</p>
+                <br>
+                <iframe width="480" height="270" src="https://www.youtube.com/embed/K9ob0hJhq6A" title="YouTube video player" align="left" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="480" height="270" src="https://www.youtube.com/embed/lArwj8ELa10" title="YouTube video player" align="right" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                <iframe width="480" height="270" src="https://www.youtube.com/embed/JRuaa82W9CY" title="YouTube video player" frameborder="0" align="left" style="margin-top:10px" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="480" height="270" src="https://www.youtube.com/embed/Uu-hRtkaVLc" title="YouTube video player" frameborder="0" align="right" style="margin-top:10px" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>    
+            <div class="info heading-3">
+                <h1>Cows Care videos</h1>
+                <p>Raising cattle can be really rewarding if you want to provide food for your family, but it’s important to know how to care of them before you purchase your first herd. If you want to get started with your own cows and bulls, there are a few things you have to know. Before the animals arrive on your land, create a series of paddocks and shelters suitable for your herd size. Then, start caring for the cattle directly by providing for their food, water, and health needs.</p>
+                <ul><b>
+                    <li>Provide 2 acres per animal for pasture grazing.</li>
+                    <li>Give your cattle feed if you have less space.</li>
+                    <li>Determine how many paddocks you will need.</li>
+                    <li>Design paddocks around the land</li>
+                    <li>Make paddocks out of temporary fencing initially.</li>
+                    <li>Rotate your cattle between the paddocks daily.</li>
+                </b>
+                </ul>
+                <iframe width="480" height="270" src="https://www.youtube.com/embed/sEXD7PxOMqk" title="YouTube video player" align="left" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="480" height="270" src="https://www.youtube.com/embed/j0d0PQjWa6g" title="YouTube video player" align="right" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="480" height="270" src="https://www.youtube.com/embed/j0d0PQjWa6g" title="YouTube video player" align="left" style="margin-top: 10px;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="480" height="270" src="https://www.youtube.com/embed/wa-m7SQoIJg" title="YouTube video player" style="margin-top: 10px;" align="right" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+               
+            </div>    
+            <div class="info heading-4">
+                <h1>Horses Care videos</h1>
+                <p>Sharing your life with a horse can be a rewarding experience, but it includes the responsibility of caring for your equine companion for life.
+
+                    Your horse depends on your love, care and commitment, which you can show through grooming, petting, riding and the occasional treat. With good care, your horse can live 35 years or more. Keep these general horse care considerations in mind:</p>
+                <br>
+                <h3>Routine horse care is a significant and ongoing expense></h3>
+                <p>The purchase price a horse is often much less than the cost of maintaining a horse for a year. Make sure you are realistic about your ability to afford quality care before you acquire an equine companion.</p>
+                <br>
+                <h3>Horses need a regular supply of food and water</h3>
+                <p>In most cases, they need to have hay or pasture throughout the day, with additional grain feedings twice a day. An average-size horse will eat about 20 lbs. of food a day and drink at least eight gallons of water. Because their stomachs are relatively small and their digestive systems surprisingly delicate, horses need to nibble or graze throughout the day, rather than have one or two meals a day.</p>
+                <br>
+                <h3>PROVIDE PLENTY OF ROUGHAGE</h3>
+                <p>Many pleasure and trail horses don’t need grain: good-quality hay or pasture is sufficient. If hay isn’t enough, grain can be added, but the bulk of a horse’s calories should always come from roughage.
+
+                    <br>Horses are meant to eat roughage, and their digestive system is designed to use the nutrition in grassy stalks. A horse should eat one to two % of their body weight in roughage every day.
+                    
+                    <br>Horses who spend much of their time in stalls aren’t doing much grazing, but their natural feeding patterns can be replicated by keeping hay in front of them for most of the day. They can nibble at it for a while, take a break and snooze for a while, and then come back to it, keeping some roughage constantly moving through their systems.</p>
+                    <iframe width="480" height="270" src="https://www.youtube.com/embed/n2fFNcsnqTE" title="YouTube video player" align="left" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe width="480" height="270" src="https://www.youtube.com/embed/fdGhd2phEHs" title="YouTube video player" align="right" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe width="480" height="270" src="https://www.youtube.com/embed/xR1V5nbg8I8" title="YouTube video player" align="left" style="margin-top:10px" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe width="480" height="270" src="https://www.youtube.com/embed/L_huDxSkDX0" title="YouTube video player" align="right" style="margin-top: 10px;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>    
+           
+            
+            
+            
+           
+                
+                
+                
+                
+            
+            
+            
+        </div>
+    </div>
+
+    <script>
+        let H2 = document.querySelectorAll(".sidebar li.heading");
+        let AllSet = document.querySelectorAll(".main-content > div.info,.sidebar li.heading ");
+        for (let e of H2) {
+        e.addEventListener("click", function() {
+            let linkedClass = this.classList.item(1);
+            toggleActive(linkedClass);
+        });
+        }
+        function toggleActive(linkedClass) {
+        for (let i = 0; i < AllSet.length; i++) {
+            AllSet[i].classList.remove("active");
+            if (AllSet[i].classList.item(1) == linkedClass) {
+            AllSet[i].classList.add("active");
+            }
+        }
+        }
+    </script>
+
+</body>
+</html>

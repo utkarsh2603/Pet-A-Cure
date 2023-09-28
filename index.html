@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet-A-Cure</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <script src="https://kit.fontawesome.com/8d187dbc86.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <!-- header -->
+
+        <nav class="navbar">
+
+        <a href="index.html" id="homee">Home</a>
+    
+        <div class="dropdown">
+    
+          <div class="animal-treatment">
+    
+            <button class="dropbtn">Animal Treatment</button>
+            <i class="fa-solid fa-caret-down" style="color:#ff6e01;"></i>
+          </div>
+            <div class="dropdown-content">
+              <a href="https://www.justdial.com/Sehore/Doctors/nct-10892680" target="_blank">Veterinary Appointment</a>
+              <a href="https://www.justdial.com/Bhopal/Dieticians/nct-10161884" target="_blank">Dietician Appointment</a>
+            </div>
+         </div>
+    
+       
+    
+        <div class="dropdown">
+    
+          <div class="animal-care">
+            <button class="dropbtn">Animal Care</button>
+            <i class="fa-solid fa-caret-down" style="color:#ff6e01;"></i>
+          </div>
+          
+          <div class="dropdown-content">
+            <a href="https://www.justdial.com/Bhopal/Trainer-Jobs/nct-10372869" target="_blank">Trainer</a>
+            <a href="/pet_grooming.html">Pet Grooming</a>
+            <a href="#">Videos of animal care</a>
+          </div>
+    
+        </div>
+    
+    
+    
+        <div class="dropdown">
+    
+          <div class="contact-ngos">
+            <button class="dropbtn">Contact NGOs</button>
+          <i class="fa-solid fa-caret-down" style="color:#ff6e01;"></i>
+          </div>
+    
+          <div class="dropdown-content">
+            <a href="https://www.justdial.com/Sehore/Adoption-Centers/nct-10270420" target="_blank">Adopt</a>
+            <a href="https://www.justdial.com/Bhopal/Adoption-Centers/nct-10270420" target="_blank">Drop pets </a>
+            
+          </div>
+    
+        </div>
+    
+    
+    
+        <div class="dropdown">
+    
+          <div class="find-people">
+            <button class="dropbtn">About us</button>
+            <i class="fa-solid fa-caret-down" style="color:#ff6e01;"></i>
+          </div>
+          
+          <div class="dropdown-content">
+            <a href="services.html">Services</a>
+            <a href="/ContactFrom_v1/index.html">Contact us</a>
+          </div>
+          
+        </div>
+    
+        <div class="sign-btn">
+          <button id="btn1" onclick="window.location.href='sign_up.html'">Sign-Up</button>
+          <button onclick="window.location.href='sign_in.html'">Log-in</button>
+        </div>
+    
+      </nav>
+
+
+<!-- navigation end -->
+
+
+    <!--first look of front page  -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Animal Care & Treatment <br></h3>
+            <p class="tagline">Welcome to Animal Healthcare, <br> It's our pleasure to provide you this website. </p>
+
+            <input type="file" id="real-life" hidden = "hidden">
+            <button class="btn" id="up-custom-btn">Upload Image</button>
+            
+            <!-- <button id="clickOpen" onclick="clickMe()" class="btn">Upload Image</button> -->
+
+        </div>
+
+        <img src="images/bottom_wave.png" alt="" class="wave">
+
+    </section>
+
+    <!-- end -->
+
+    <!-- about -->
+
+    <section class="about" id="about">
+
+        <h2 class="deco-title">About us</h2>
+
+        <div class="box-container">
+
+            <div class="image">
+                <img src="images/banner_1.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3 class="title">you can Watch the videos of animal Healthcare</h3>
+                <p>We are providing videos for animal Care sit amet consectetur adipisicing elit. pernatur veritatis, reiciendis ad eveniet maxime. Omnis, placeat, aperiam veritatis fuga  alias dolorem at distinctio, maiores harum provident eius fugit voluptates expedita ea!</p>
+                
+                <div class="icons-container">
+                    <!-- <div class="icons">
+                        <a href="">
+                            <i class="fa fa-history" style="font-size:49px;color:#ff6e01;margin:2px;"></i>
+                            <h3>History</h3>
+                        </a>
+                    </div> -->
+                    <div class="icons">
+                        <a href="https://www.justdial.com/Sehore/Pet-Shops/nct-10360322" target= "_blank">
+                            <i class="fas fa-search"></i>
+                        <h3>Search Videos</h3>
+                        </a>
+                    </div>
+                    <div class="icons"> 
+                        <a href="">
+                            <i class="fas fa-video"></i>
+                            <!-- <h3>Make Video</h3> -->
+                            <h3><button id="v-custom-btn" style="background-color: transparent;cursor: pointer;">Make Videos</button></h3>
+
+                            <input type="file" id="real-life-video" hidden = "hidden">
+
+
+            <!-- <button class="btn" id="up-custom-btn">Upload Image</button> -->
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- end -->
+
+
+    <!-- end -->
+
+    <!-- animals -->
+
+    <section class="animal" id="animal">
+
+        <h2 class="heading">to know about</h2>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/dog.jpg" alt="">
+                <div class="content">
+                    <h3>Dog</h3>
+                    <a href="/animalHealthcare/dogs.html" target="_blank" class="btn">see datails</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/cat.jpg" alt="">
+                <div class="content">
+                    <h3>Cat</h3>
+                    <a href="/animalHealthcare/cats.html" class="btn">see datails</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/cow.jpg" alt="">
+                <div class="content">
+                    <h3>Cow</h3>
+                    <a href="/animalHealthcare/cow.html" class="btn">see datails</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/hourse.jpg" alt="">
+                <div class="content">
+                    <h3>Horse</h3>
+                    <a href="/animalHealthcare/horse.html" class="btn">see datails</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- banner -->
+
+    <section class="banner">
+
+        <div class="row">
+            
+            <div class="content">
+                <h3>Care of your pets</h3>
+            <p>Having A Place Where You Can Get All Vets Near You Is A Good Initiative And We Are One Place Solution For Such Problems.....</p> 
+                
+            <div class="btn">
+                <a href="/animalHealthcare/videos_animalCare.html" target= "_blank">Watch Videos</a>
+            </div>
+            </div>
+
+            <div class="image video-img">
+                <img src="images/dog-care-video.png" alt="">
+            </div>
+            
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- pricing -->
+
+    <section class="pricing" id="pricing">
+
+        <h2 class="heading">Services</h2>
+
+        <div class="box-container">
+
+            <div class="box">
+                <a href="https://www.justdial.com/Sehore/Trainer-Jobs/nct-10372869" target="_blank">
+                    <img src="images/pricing1.png" alt="">
+                    <h3>Trainer</h3>
+                    <h4 class="price">Fix Appointment</h4>
+                    <p>the entrance is from 8:00 to 17:00</p>
+                </a>
+            </div>
+
+            <div class="box">
+                <a href="https://www.justdial.com/Sehore/Dietitians/nct-10161884" target="_blank">
+                    <img src="images/pricing2.png" alt="">
+                    <h3>Dietician</h3>
+                    <h4 class="price">Fix Appointment</h4>
+                    <p>the entrance is from 8:00 to 17:00</p>
+                </a>
+            </div>
+
+            <div class="box">
+                <a href="https://www.justdial.com/Sehore/Doctors-For-Animals/nct-10519268" target="_blank">
+
+                    <img src="images/pricing1.png" alt="">
+                    <h3>Veterinary</h3>
+                    <h4 class="price">Fix Appointment</h4>
+                    <p>the entrance is from 10:00 to 17:00</p>
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- contact -->
+
+    <section class="contact" id="contact">
+
+        <h2 class="heading">contact</h2>
+
+        <form action="">
+
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="meassage"></textarea>
+
+            <a href="#" class="btn">send message</a>
+
+        </form>
+
+    </section>
+
+    <!-- end -->
+
+
+
+
+
+    <!-- footer start -->
+    <footer>
+        <div class="row primary">
+          <div class="column about">
+            <h3>Animal Healthcare</h3>
+            <p>
+                It's Our Pleasure To Provide You This Website.
+            </p>
+                      <div class="social">
+                        <i class="fa-brands fa-facebook-square"></i>
+                        <i class="fa-brands fa-instagram-square"></i>
+                        <i class="fa-brands fa-twitter-square"></i>
+            <i class="fa-brands fa-youtube-square"></i>
+              <i class="fa-brands fa-whatsapp-square"></i>
+                      </div>
+          </div>
+          <div class="column links">
+            <h3 style="margin-bottom: 14px;">Explore</h3>
+            <ul>
+              <li>
+                <a href="pet_grooming.html">Pet grooming</a>
+              </li>
+              <li>
+                <a href="videos_animalCare.html">Watch videos</a>
+              </li>
+              <li>
+                <a href="https://www.justdial.com/Sehore/NGOS/nct-10337253">NGOs</a>
+              </li>
+  
+            </ul>
+          </div>
+            <div class="column links">
+              <h3 style="margin-bottom: 14px;">Policies</h3>
+              <ul>
+                <li>
+                  <a href="#faq">About Us</a>
+                </li>
+                <li>
+                  <a href="services.html">Services</a>
+                </li>
+                <li>
+                  <a href="terms_conditions.html">Terms and conditions</a>
+                </li>
+                
+  
+              </ul>
+            </div>
+          <div class="column subscribe">
+            <h3 style="margin-bottom: 14px;">Newsletter</h3>
+            <div>
+              <input type="email" placeholder="Your email id here" style="margin-bottom: 14px;"/>
+              <button id="subscribe"></a>Subscribe</button>
+            </div>
+  
+          </div>
+        </div>
+  
+        <div class="row copyright">
+           <div class="footer-menu">
+  
+                         <a href="">Home</a>
+                         <a href="">About</a>
+                         <a href="">Contact</a>
+                    
+            </div>
+            <p>Copyright &copy; 2023 Animal HealthCare</p>
+        </div>
+      </footer>
+
+
+      <!-- footer end -->
+
+
+
+
+
+
+      <!-- java script for uplaod image on laptop starts from here -->
+
+      <script>
+
+        const realfileBtn = document.getElementById("real-life");
+        const customBtn = document.getElementById("up-custom-btn");
+
+        customBtn.addEventListener("click" , function(){
+
+            realfileBtn.click();
+
+        });
+
+
+
+      </script>
+
+      <!-- java script for upload image on laptop ends -->
+
+
+      <!-- java script for uplaod video on laptop starts from here -->
+
+      <script>
+
+        const realfileBtn1 = document.getElementById("real-life-video");
+        const customBtn1 = document.getElementById("v-custom-btn");
+
+        customBtn1.addEventListener("click" , function(){
+
+            realfileBtn1.click();
+
+        });
+
+
+
+      </script>
+
+      <!-- java script for upload video on laptop ends -->
+
+
+
+      <script type="text/javascript" src="../common-public/jquery.js"></script>
+      <script type="text/javascript" src="../common-public/jsll4.js"></script>
+      <script type="text/javascript" src="../common-public/objectEntries.js"></script>
+      <script type="text/javascript" src="../common-public/history.js"></script>
+      <script type="text/javascript" src="../common-public/bluebird.min.js"></script>
+      <script type="text/javascript" src="../common-public/axios.min.js"></script>
+      <script type="text/javascript" src="../common-public/react.production.min.js"></script>
+      <script type="text/javascript" src="../common-public/react-dom.production.min.js"></script>
+      <div id="root" data-area-content="null"></div>
+      <script type="text/javascript" src="area-content/area-content.loader.js"></script>
+      <script src="./static/js/bundle.js"></script>
+      <script src="./static/js/2.chunk.js"></script>
+      <script src="./static/js/main.chunk.js"></script>
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
